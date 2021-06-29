@@ -1,0 +1,41 @@
+.custom-container {
+    height: 100vh;
+    background: var(--backgroundEven);
+    padding: var(--paddingPrimary);
+}
+
+.custom-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.custom-title {
+    font-family: var(--fontSecondary);
+    font-size: var(--fontSizePrimary);
+    text-align: center;
+}
+
+.custom-desc {
+    font-family: var(--fontPrimary);
+    font-size: var(--fontSizeQuarternary);
+    text-align: center;
+    max-width: 516px;
+}
+
+.custom-buttons {
+    display: flex;
+}
+
+@media screen and (max-width: 600px){
+    .custom-container {
+        padding: var(--paddingSecondary);
+    }
+    .custom-buttons {
+        flex-direction: column;
+    }
+}

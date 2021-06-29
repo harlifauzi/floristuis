@@ -1,12 +1,15 @@
 import React from 'react';
-import { MyNavbar } from '../../components';
+import { MyFooter, MyNavbar } from '../../components';
+import { Custom, Landing } from '../../sections';
 import './LandingPage.css';
 
 const LandingPage = () => {
     return (
-        <div>
+        <div className="landingpage-container">
             <MyNavbar />
-            From Landing Page
+            <Landing />
+            <Custom />
+            <MyFooter />
         </div>
     )
 }

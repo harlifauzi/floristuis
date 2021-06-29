@@ -1,0 +1,36 @@
+.myfooter-container {
+    height: 50px;
+    background: var(--backgroundOdd);
+    background-color: transparent;
+    padding: var(--paddingPrimary);
+}
+
+.myfooter-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.myfooter-text {
+    max-width: 223px;
+    font-family: var(--fontPrimary);
+    font-weight: 700;
+    font-size: var(--fontSizeQuarternary);
+    text-align: center;
+    color: black;
+}
+
+.myfooter-text span {
+    color: var(--colorPrimary);
+    font-weight: 800;
+}
+
+@media screen and (max-width: 600px){
+    .myfooter-container {
+        padding: var(--paddingSecondary);
+    }
+}

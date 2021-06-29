@@ -65,7 +65,7 @@
         margin-right: 0;
         margin-left: auto;
         text-align: right;
-        /* display: none; */
+        display: none;
     }
     .mynavbar-wrapper ul li {
         margin: 3px 0;
@@ -79,7 +79,7 @@
         margin-right: 5px;
     }
     #check {
-        display: block;
+        display: none;
         position: absolute;
         top: 0;
         right: 0;

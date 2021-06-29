@@ -1,0 +1,37 @@
+.mybutton-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorPrimary);
+    font-family: var(--fontPrimary);
+    font-size: var(--fontSizeQuarternary);
+    color: white;
+    width: 180px;
+    border-radius: 50px;
+    padding: 10px 0;
+    box-shadow: 0 0 10px var(--colorPrimary);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mybutton-container-outline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid var(--colorPrimary);
+    font-family: var(--fontPrimary);
+    font-size: var(--fontSizeQuarternary);
+    font-weight: 600;
+    color: var(--colorPrimary);
+    width: 180px;
+    border-radius: 50px;
+    padding: 10px 0;
+    box-shadow: 0 0 10px var(--colorPrimary);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mybutton-container:hover, .mybutton-container-outline:hover {
+    transform: scale(1.05, 1.05);
+}

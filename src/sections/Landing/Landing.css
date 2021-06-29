@@ -1,0 +1,48 @@
+.landing-container {
+    height: 100vh;
+    background: var(--backgroundOdd);
+    padding: var(--paddingPrimary);
+}
+
+.landing-wrapper {
+    display: flex;
+    height: 100%;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+.landing-left {
+    margin: auto 0;
+}
+
+.landing-title {
+    font-family: var(--fontSecondary);
+    font-size: var(--fontSizePrimary);
+}
+
+.landing-desc {
+    font-family: var(--fontPrimary);
+    font-size: var(--fontSizeQuarternary);
+}
+
+.landing-hero {
+    max-width: 60%;
+    margin: auto 0 auto auto;
+}
+
+@media screen and (max-width: 600px){
+    .landing-container {
+        padding: var(--paddingSecondary);
+    }
+    .landing-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+    .landing-hero {
+        display: none;
+    }
+}

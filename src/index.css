@@ -1,0 +1,23 @@
+:root {
+    --fontPrimary: 'Nunito', sans-serif;
+    --fontSecondary: 'Delius', cursive;
+    --fontTertiary: 'Sacramento', cursive;
+
+    --fontSizePrimary: 40px;
+    --fontSizeSecondary: 30px;
+    --fontSizeTertiary: 15px;
+    --fontSizeQuarternary: 13px;
+
+    --colorPrimary: #8D9D65;
+    --colorSecondary: #F9F4F4;
+    --colorTertiary: #EAEAEA;
+
+    --backgroundOdd: linear-gradient(180deg, #F9F4F4 0%, #FFFFFF 100%);
+    --backgroundEven: linear-gradient(180deg, #FFFFFF 0%, #F9F4F4 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

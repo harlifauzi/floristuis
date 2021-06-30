@@ -6,6 +6,10 @@ const MyNavbar = () => {
         <div className="mynavbar-container">
             <div className="mynavbar-wrapper">
                 <h1 className="mynavbar-logo">floristuis</h1>
+                <label for="check">
+                    <i className='bx bx-menu-alt-right'></i>
+                </label>
+                <input type="checkbox" id="check" />
                 <ul className="mynavbar-nav">
                     <li>Products</li>
                     <li>About</li>
@@ -15,10 +19,6 @@ const MyNavbar = () => {
                     <li>Signup</li>
                     <li>Login</li>
                 </ul>
-                <label for="check">
-                    <i className='bx bx-menu-alt-right'></i>
-                </label>
-                <input type="checkbox" id="check" />
             </div>
         </div>
     )

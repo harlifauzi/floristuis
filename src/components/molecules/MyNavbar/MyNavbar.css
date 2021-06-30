@@ -52,7 +52,7 @@
 }
 
 #check {
-    display: none;
+    /* display: none; */
 }
 
 @media screen and (max-width: 600px){
@@ -61,11 +61,14 @@
         padding: var(--paddingSecondary);
     }
     .mynavbar-wrapper ul {
+        position: fixed;
+        top: 57px;
+        right: -100%;
         flex-direction: column;
         margin-right: 0;
         margin-left: auto;
         text-align: right;
-        display: none;
+        transition: all 0.3s;
     }
     .mynavbar-wrapper ul li {
         margin: 3px 0;
@@ -78,6 +81,9 @@
         margin-top: 15px;
         margin-right: 5px;
     }
+    .mynavbar-wrapper .mynavbar-nav-auth {
+        top: 140px;
+    }
     #check {
         display: none;
         position: absolute;
@@ -87,7 +93,7 @@
         margin-right: 55px;
         transform: scale(2,2);
     }
-    #check:checked ~ ul {
-        display: none;
-    }
+    #check:checked ~ ul{
+		right: 10px;
+	}
 }
